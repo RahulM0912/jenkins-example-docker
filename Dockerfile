@@ -1,3 +1,3 @@
 FROM node:16-alpine
 
-CMD ["echo", "Hello World"]
+RUN apk add -U git curl
